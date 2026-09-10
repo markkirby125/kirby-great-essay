@@ -81,3 +81,9 @@ To manually invoke the skill, instruct the agent:
 ### AI Slop Detected
 **Issue:** The output contains words like "leverage," "seamless," or "testament to."
 **Solution:** Combine this skill with a dedicated unslop or anti-AI writing skill. Instruct the agent to run the output through a strict filter before finalizing.
+
+## External Resources & Authority Links
+- [Google Search Central: Creating helpful, reliable, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
+- [Nielsen Norman Group: How Users Read on the Web](https://www.nngroup.com/articles/how-users-read-on-the-web/)
+- [Anthropic: Prompt Engineering Guide](https://docs.anthropic.com/claude/docs/prompt-engineering)
+- [Purdue OWL: Essay Structure](https://owl.purdue.edu/owl/general_writing/academic_writing/essay_writing/index.html)
