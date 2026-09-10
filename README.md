@@ -1,5 +1,7 @@
 # kirby-great-essay
 
+*This skill is part of the [Kirby Skills Collection](https://github.com/markkirby125/kirby-skills-collection).*
+
 An AI agent skill that establishes the editorial framework for producing authoritative, high-retention essays. It optimizes long-form content for both human readers and AI Answer Engines (AEO/GEO).
 
 ## Key Features
