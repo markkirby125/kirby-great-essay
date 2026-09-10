@@ -2,12 +2,12 @@
 
 *This skill is part of the [Kirby Skills Collection](https://github.com/markkirby125/kirby-skills-collection).*
 
-An AI agent skill that establishes the editorial framework for producing authoritative, high-retention essays. It optimizes long-form content for both human readers and AI Answer Engines (AEO/GEO).
+An AI agent skill that establishes the editorial framework for producing authoritative, high-retention essays. It optimises long-form content for both human readers and AI Answer Engines (AEO/GEO).
 
 ## Key Features
 
 - **7-Phase Editorial Architecture:** Guides agents from problem inversion to final syntax audits.
-- **3-Layer RAG Chunking:** Structures text to maximize generative AI citations and vector retrieval.
+- **3-Layer RAG Chunking:** Structures text to maximise generative AI citations and vector retrieval.
 - **Empirical GEO Multipliers:** Enforces hard numerical statistics, external standards, and active SVO declarative prose.
 - **Anti-Slop Enforcement:** Prevents generic AI writing patterns and hollow intensifiers.
 
