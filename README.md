@@ -57,13 +57,13 @@ This skill operates as a single-file Markdown document containing YAML frontmatt
 
 ### Skill Logic Flow
 
-1. **Phase 1: Pre-Flight Inversion:** Identifies the Status Quo belief the essay will displace and its operational cost.
-2. **Phase 2: Dynamic Header Hardening:** Structures `<h2>` and `<h3>` tags as independent, entity-rich titles.
-3. **Phase 3: The Introduction Engine:** Follows a strict 5-step flow (Common Ground → Concession → Pivot → Cost → Point).
-4. **Phase 4: Fractal Structuring:** Ensures every section follows the 3-Layer RAG Chunking model (Atomic Answer, Empirical Proof, Edge Cases).
-5. **Phase 5: Syntactic Information Flow:** Enforces SVO dependency parsing and specific paragraph patterns.
-6. **Phase 6: GEO Retrieval Multipliers:** Integrates external standards, hard statistics, and structured tables.
-7. **Phase 7: QA Verification Gates:** Subjects the text to The Skim Test, RAG Chunk Independence Audit, and Single Point Audit before completion.
+1. **Module 1: Pre-Flight Inversion:** Identifies the Status Quo belief the essay will displace and its operational cost.
+2. **Module 2: Dynamic Header Hardening:** Structures `<h2>` and `<h3>` tags as independent, entity-rich titles.
+3. **Module 3: The Introduction Engine:** Uses `kirby-direct-response-copywriting` §7.1 (Prelude → Concession → Pivot → Cost → Point) with 30% front-loading.
+4. **Module 4: Fractal Structuring:** Ensures every section follows the 3-Layer RAG Chunking model (Atomic Answer, Empirical Proof, Edge Cases).
+5. **Module 5: Syntactic Information Flow:** Enforces SVO dependency parsing and specific paragraph patterns.
+6. **Module 6: GEO Retrieval Multipliers:** Integrates external standards, hard statistics, and structured tables.
+7. **Module 7 + Section 4 QA:** Conclusion, then The Skim Test, RAG Chunk Independence Audit, and Single Point Audit.
 
 ## Usage
 

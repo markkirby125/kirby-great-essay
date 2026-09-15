@@ -1,19 +1,21 @@
 ---
 name: kirby-great-essay
-description: "Use when writing or editing high-impact editorial essays, technical thought leadership, and authoritative digital assets optimized for AEO/GEO."
+description: "Use when writing or editing high-impact editorial essays, technical thought leadership, and authoritative digital assets optimised for AEO/GEO."
 category: technique
-triggers: [essay, writing, editorial, aeo, geo, thought-leadership, generative-search]
+triggers: [essay, editorial, thought-leadership]
 ---
 # Standard Operating Procedure (SOP): Fractal Essay Architecture & Generative Semantic Engineering (AEO / GEO Aligned)
 
 **Document ID:** SOP-WRT-GEO-002  
 **Sources:**  
 - *Anatomy of a Great Essay: A Visual Guide to Expert Writing* (Writer Science)  
-- *Standard Operating Procedure: Answer Engine & Generative Search Optimization (AEO / GEO)* (`SOP_AISEO.md`)  
-**Status:** Draft / Pending Approval  
+- On-page AEO/GEO SOP: `kirby-aiseo-skill`  
+- Status Quo Inversion intro engine: `kirby-direct-response-copywriting` Module 7.1  
+**Status:** Approved portable SOP.  
 **Target Scope:** High-Impact Editorial Essays, Technical Thought Leadership, and Authoritative Commercial / Informational Digital Assets  
+**Related:** Sitewide AEO/GEO protocol is `kirby-aiseo-skill`. Sales copy / VSL is `kirby-direct-response-copywriting`. Developer-platform entity graphs are `kirby-technical-aeo`.  
 
-> **TL;DR:** This SOP establishes the editorial framework for producing authoritative, high-retention essays optimized for both human cognition and AI Answer Engines (AEO/GEO). It enforces a strict 7-phase architecture—from initial problem inversion and 3-layer RAG chunking to empirical verification and final syntax audits—ensuring every piece maximizes generative AI citations and reader dwell time.
+> **TL;DR:** This SOP establishes the editorial framework for producing authoritative, high-retention essays optimised for both human cognition and AI Answer Engines (AEO/GEO). It enforces a strict 7-module architecture—from initial problem inversion and 3-layer RAG chunking to empirical verification and final syntax audits—ensuring every piece maximises generative AI citations and reader dwell time.
 
 ---
 
@@ -37,51 +39,50 @@ This SOP defines the end-to-end editorial protocol for producing high-authority 
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
-│ Phase 0: Pre-Flight Inversion & Intent Framing                         │
+│ Module 1: Pre-Flight Inversion & Intent Framing                        │
 │ • Point Inversion ➔ Status Quo Formulation ➔ Cost of Inaction          │
 └──────────────────────────────────┬─────────────────────────────────────┘
                                    │
                                    ▼
 ┌────────────────────────────────────────────────────────────────────────┐
-│ Phase 1: Title Construction & Dynamic Header Hardening                 │
+│ Module 2: Title Construction & Dynamic Header Hardening                │
 │ • 4 Curiosity Triggers ➔ Entity Anchor ➔ AI Title Link Defense         │
 └──────────────────────────────────┬─────────────────────────────────────┘
                                    │
                                    ▼
 ┌────────────────────────────────────────────────────────────────────────┐
-│ Phase 2: Introduction Engine (Problem-Solution Inversion)              │
+│ Module 3: Introduction Engine (via copywriting §7.1)                   │
 │ • Common Ground ➔ Concession ➔ Destabilizing Pivot ➔ Cost ➔ BLUF Point │
 └──────────────────────────────────┬─────────────────────────────────────┘
                                    │
                                    ▼
 ┌────────────────────────────────────────────────────────────────────────┐
-│ Phase 3: Fractal Section Structuring & 3-Layer RAG Chunking            │
+│ Module 4: Fractal Section Structuring & 3-Layer RAG Chunking           │
 │ • Layer 1: Atomic Answer (40–60w) | Layer 2: Empirical Proof (150–250w)│
 │ • Layer 3: Edge Cases (100–150w)  | Point-First vs. Point-Last         │
 └──────────────────────────────────┬─────────────────────────────────────┘
                                    │
                                    ▼
 ┌────────────────────────────────────────────────────────────────────────┐
-│ Phase 4: Lexical Coherence & Thematic Strings                          │
-│ • Entity Strings ➔ Mechanism Strings ➔ Outcome Strings                 │
+│ Module 5: Lexical Coherence & Syntactic Information Flow               │
+│ • Thematic Strings | 4 Paragraph Patterns | SVO | Echo-Question        │
 └──────────────────────────────────┬─────────────────────────────────────┘
                                    │
                                    ▼
 ┌────────────────────────────────────────────────────────────────────────┐
-│ Phase 5: Syntactic Information Flow (The 4 Paragraph Patterns)         │
-│ • Constant Theme | Linking (Old➔New) | Super Theme | Theme Preview     │
-│ • SVO Dependency Parsing & Echo-Question Resolution                    │
+│ Module 6: Empirical GEO Retrieval Multipliers                          │
+│ • Primary standards | Hard stats | Expert quotes | Tables              │
 └──────────────────────────────────┬─────────────────────────────────────┘
                                    │
                                    ▼
 ┌────────────────────────────────────────────────────────────────────────┐
-│ Phase 6: Conclusion (Problem Solved & Broader Horizon)                 │
+│ Module 7: Conclusion (Problem Solved & Broader Horizon)                │
 │ • Settlement Verification ➔ Macro Linkage (Zero Unearned Summaries)    │
 └──────────────────────────────────┬─────────────────────────────────────┘
                                    │
                                    ▼
 ┌────────────────────────────────────────────────────────────────────────┐
-│ Phase 7: QA Verification Gates & Human-Review Readiness Audit          │
+│ Section 4: QA Verification Gates & Human-Review Readiness Audit        │
 │ • The Skim Test | Single-Point Audit | RAG Chunk Test | SVO Flow Audit │
 └────────────────────────────────────────────────────────────────────────┘
 ```
@@ -125,17 +126,9 @@ Banned introductory patterns (*kill immediately*):
 - ❌ `General → Specific` (Rambling generic funnel that delays the problem)
 - ❌ `Gap → Niche` (Academic gap-filling that lacks operational urgency)
 
-Deploy the **5-Step Status Quo Inversion Engine**:
+Execute the **5-step Status Quo Inversion engine** from `kirby-direct-response-copywriting` Module 7.1 (Prelude → Concession → Destabilizing Condition → Cost of Inaction → Point). Do not maintain a second copy of those five steps here.
 
-```
-[1. Common Ground] ──▶ [2. Status Quo Concession] ──▶ [3. BUT... (Pivot)] ──▶ [4. Cost of Inaction] ──▶ [5. The Point (BLUF)]
-```
-
-1. **Step 3.1 — Common Ground (Prelude):** Open with the shared context or established baseline that target readers take for granted.
-2. **Step 3.2 — Status Quo Concession ("Be Fair"):** Concede what is valid, useful, or understandable about the reader's current view. Conceding first earns the trust to upset it next.
-3. **Step 3.3 — Destabilizing Condition ("BUT..." / "However..."):** Disrupt the status quo by introducing what is broken, obsolete, or dangerous about that belief.
-4. **Step 3.4 — State the Cost:** Quantify the penalty of inaction.
-5. **Step 3.5 — Deliver The Point (Solution / BLUF):** State the thesis clearly. Deliver it within the top 30% of the introductory unit.
+**Essay-specific constraint:** deliver the Point (BLUF) within the top 30% of the introductory unit so the 30% Front-Loading Law holds.
 
 ---
 
@@ -297,7 +290,7 @@ A: The 30% Front-Loading Law dictates that AI engines extract the vast majority 
 
 [ ] 3. INTRODUCTION ENGINE
     [ ] Banned intro patterns eliminated (no Background->Thesis, General->Specific, Gap->Niche).
-    [ ] 5-step flow followed: Prelude ➔ Concession ➔ Pivot ("BUT") ➔ Cost ➔ Solution (BLUF).
+    [ ] 5-step flow followed from `kirby-direct-response-copywriting` §7.1: Prelude ➔ Concession ➔ Pivot ("BUT") ➔ Cost ➔ Solution (BLUF).
     [ ] Core solution front-loaded in top 30% of introduction.
 
 [ ] 4. FRACTAL & RAG ARCHITECTURE
