@@ -4,7 +4,7 @@ description: "Use when writing or editing high-impact editorial essays, technica
 category: technique
 triggers: [essay, editorial, thought-leadership]
 risk: unverified
-author: william-fitzpatrick
+author: paul-kirby
 tags: [kirby, ai-agent, workflow]
 ---
 
