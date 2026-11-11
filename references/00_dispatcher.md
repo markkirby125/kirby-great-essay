@@ -251,7 +251,7 @@ Before approving or publishing any document produced under this SOP, it must pas
 - **Pass Criteria:** Zero awkward cadence breaks, zero bloated introductory clauses, and smooth Topic–Comment transitions across all sentence boundaries.
 
 ### Gate 5: Empirical Anchor & Front-Loading Audit
-- **Method:** Check the top 30% of the document, the author block, and each section that carries an empirical claim (its Layer 2 where present).
+- **Method:** Check the top 30% of the document, the author block (if the essay is signed), and each section that carries an empirical claim (its Layer 2 where present).
 - **Pass Criteria:** Primary point delivered above the 30% fold; each empirical claim is anchored by a hard statistic, primary standard, expert quote or structured table where the source material supports one (never invent a statistic, quote or standard); Step 1.4 is satisfied (a named author with linked bio and no invented credentials, or an unsigned essay labelled editorial synthesis with no expert or first-hand claims). Where the essay makes first-hand claims (testing, measurement, original research or client data), it also carries at least one original screenshot, dataset or demo (first-hand, never a stock or generated image presented as evidence) and a visible line near the byline stating what the named author actually did (for example tested, measured, interviewed or reviewed). An essay that makes no first-hand claims is exempt and must not manufacture an artefact or a labour line to pass this gate.
 
 ---

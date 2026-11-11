@@ -7,7 +7,7 @@ An AI agent skill that establishes the editorial framework for producing authori
 ## Key Features
 
 - **7-Phase Editorial Architecture:** Guides agents from problem inversion to final syntax audits.
-- **Author Credibility Gate:** Requires a named author with a linked bio and no invented credentials (each one sourced, self-reported or omitted), or an unsigned essay labelled as editorial synthesis; no AI headshots or synthetic personas.
+- **Author Credibility Gate:** Requires a named author with a linked bio and no invented credentials (each one sourced, labelled as the author's own unverified claim, or omitted), or an unsigned essay labelled as editorial synthesis; no AI headshots or synthetic personas.
 - **3-Layer RAG Chunking:** A default section shape for generative AI citations and vector retrieval, varied to fit the content.
 - **Empirical GEO Multipliers:** Uses hard numerical statistics where the source supports them, external standards, and active SVO declarative prose.
 - **Anti-Slop Enforcement:** Prevents generic AI writing patterns and hollow intensifiers.
