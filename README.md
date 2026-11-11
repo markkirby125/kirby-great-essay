@@ -7,8 +7,9 @@ An AI agent skill that establishes the editorial framework for producing authori
 ## Key Features
 
 - **7-Phase Editorial Architecture:** Guides agents from problem inversion to final syntax audits.
-- **3-Layer RAG Chunking:** Structures text to maximise generative AI citations and vector retrieval.
-- **Empirical GEO Multipliers:** Enforces hard numerical statistics, external standards, and active SVO declarative prose.
+- **Author Credibility Gate:** Requires a named author with a linked bio and no invented credentials (each one sourced, self-reported or omitted), or an unsigned essay labelled as editorial synthesis; no AI headshots or synthetic personas.
+- **3-Layer RAG Chunking:** A default section shape for generative AI citations and vector retrieval, varied to fit the content.
+- **Empirical GEO Multipliers:** Uses hard numerical statistics where the source supports them, external standards, and active SVO declarative prose.
 - **Anti-Slop Enforcement:** Prevents generic AI writing patterns and hollow intensifiers.
 
 ## Tech Stack
@@ -57,11 +58,11 @@ This skill operates as a single-file Markdown document containing YAML frontmatt
 
 ### Skill Logic Flow
 
-1. **Module 1: Pre-Flight Inversion:** Identifies the Status Quo belief the essay will displace and its operational cost.
+1. **Module 1: Pre-Flight Inversion:** Gates on a named author before drafting, then identifies the Status Quo belief the essay will displace and its operational cost.
 2. **Module 2: Dynamic Header Hardening:** Structures `<h2>` and `<h3>` tags as independent, entity-rich titles.
 3. **Module 3: The Introduction Engine:** Uses `kirby-direct-response-copywriting` §7.1 (Prelude → Concession → Pivot → Cost → Point) with 30% front-loading.
-4. **Module 4: Fractal Structuring:** Ensures every section follows the 3-Layer RAG Chunking model (Atomic Answer, Empirical Proof, Edge Cases).
-5. **Module 5: Syntactic Information Flow:** Enforces SVO dependency parsing and specific paragraph patterns.
+4. **Module 4: Fractal Structuring:** Offers the 3-Layer RAG Chunking model (Atomic Answer, Empirical Proof, Edge Cases) as a default section shape, varied to fit the content.
+5. **Module 5: Syntactic Information Flow:** Applies SVO dependency parsing, with four paragraph patterns as options rather than a template.
 6. **Module 6: GEO Retrieval Multipliers:** Integrates external standards, hard statistics, and structured tables.
 7. **Module 7 + Section 4 QA:** Conclusion, then The Skim Test, RAG Chunk Independence Audit, and Single Point Audit.
 

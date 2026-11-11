@@ -9,7 +9,7 @@
 **Target Scope:** High-Impact Editorial Essays, Technical Thought Leadership, and Authoritative Commercial / Informational Digital Assets  
 **Related:** Sitewide AEO/GEO protocol is `kirby-aiseo-skill`. Sales copy / VSL is `kirby-direct-response-copywriting`. Developer-platform entity graphs are `kirby-technical-aeo`.  
 
-> **TL;DR:** This SOP establishes the editorial framework for producing authoritative, high-retention essays optimised for both human cognition and AI Answer Engines (AEO/GEO). It enforces a strict 7-module architecture—from initial problem inversion and 3-layer RAG chunking to empirical verification and final syntax audits—ensuring every piece maximises generative AI citations and reader dwell time.
+> **TL;DR:** This SOP establishes the editorial framework for producing authoritative, high-retention essays optimised for both human cognition and AI Answer Engines (AEO/GEO). It sets a 7-module editorial protocol: an author-credibility gate, problem inversion, a default (not mandatory) 3-layer section shape for RAG chunking, empirical verification and final syntax audits, to earn generative AI citations and reader dwell time on merit.
 
 ---
 
@@ -25,7 +25,7 @@ This SOP defines the end-to-end editorial protocol for producing high-authority 
 2. **Generative Engine Retrieval (LLM Citations & Vector RAG):**
    - **The 30% Front-Loading Law:** 44.2% of generative citations (ChatGPT, Perplexity, Claude, Google AI Overviews) are extracted from the top 30% of a document. Bottom-Line-Up-Front (BLUF) is mandatory.
    - **Atomic Semantic Independence:** Every section and subsection must retain complete, standalone semantic clarity when extracted as an isolated RAG chunk.
-   - **Anti-Slop & Anti-Demotion Immunization:** Rigid structural predictability without syntactic flow triggers Google's Scaled Content Abuse and NavBoost pogo-sticking demotions. Eliminating throat-clearing, hollow intensifiers, and repetitive summary wrapping is non-negotiable.
+   - **Anti-Slop & Anti-Demotion Immunization:** An identical section template repeated mechanically across an essay is reported to read as scaled, low-effort content and to invite Scaled Content Abuse and pogo-sticking demotions (directional, single-source, unverified). Vary section shape to fit the content (Module 4). Eliminating throat-clearing, hollow intensifiers, and repetitive summary wrapping is non-negotiable.
 
 ---
 
@@ -52,7 +52,7 @@ This SOP defines the end-to-end editorial protocol for producing high-authority 
                                    ▼
 ┌────────────────────────────────────────────────────────────────────────┐
 │ Module 4: Fractal Section Structuring & 3-Layer RAG Chunking           │
-│ • Layer 1: Atomic Answer (40–60w) | Layer 2: Empirical Proof (150–250w)│
+│ • Layer 1: Atomic Answer (20–45w) | Layer 2: Empirical Proof (150–250w)│
 │ • Layer 3: Edge Cases (100–150w)  | Point-First vs. Point-Last         │
 └──────────────────────────────────┬─────────────────────────────────────┘
                                    │
@@ -96,6 +96,10 @@ Every high-impact essay begins by identifying what current belief it exists to d
 3. **Step 1.3 — Define the Cost of Inaction:**
    - Identify the measurable friction, financial loss, architectural failure, or operational risk caused by leaving the Status Quo in place.
    - *Rule:* Instability alone is not a problem; the reader must perceive the explicit cost of unaddressed instability.
+4. **Step 1.4 — Author and Credibility Gate (before drafting):**
+   - Name the real author and link a bio page. List a credential only if you can cite a source for it (an external publication, employer page, licence register or conference listing); otherwise leave it out, or state it plainly as the author's own unverified claim, never as verified. A self-hosted bio alone does not prove a credential.
+   - Never use an AI-generated headshot, a synthetic persona or an invented credential. Experience claims ("we tested", "we measured") must be true of the named author or team.
+   - If no qualified human will put their name on the essay, publish it unsigned and labelled as editorial synthesis, with no expert or first-hand claims and no implied credentials. Never invent an author.
 
 ---
 
@@ -104,7 +108,7 @@ Every high-impact essay begins by identifying what current belief it exists to d
 1. **Clarity Over Cleverness:** Avoid inside jokes, cryptic puns, and abstract metaphors.
 2. **Deploy One of Four Curiosity Triggers:**
    - **Trigger 1 (Question or Puzzle):** State an operational contradiction (*e.g., "Why Do 70% of High-DA Domains Still Get De-Indexed?"*).
-   - **Trigger 2 (Sequence with Unknown Resolution):** Open an empirical sequence (*e.g., "We Monitored 1,000 Programmatic Sites for 8 Months: What Survived"*).
+   - **Trigger 2 (Sequence with Unknown Resolution):** Open an empirical sequence (*e.g., "We Monitored 1,000 Programmatic Sites for 8 Months: What Survived"; use it only if that study was actually run*).
    - **Trigger 3 (Expectation Violation):** State a premise that directly challenges dogma (*e.g., "Why Catchy Openings Kill Reader Dwell Time"*).
    - **Trigger 4 (Asymmetric Knowledge Signal):** Signal verified insight (*e.g., "What Google's NavBoost Leak Reveals About User Bounces"*).
 3. **AI Title Link Hardening (Gemini SERP Defense):**
@@ -134,13 +138,16 @@ Every unit of discourse is an essay in miniature:
 - **Micro:** Paragraph = Paragraph Index (1–3 sentences) + Paragraph Discussion
 
 #### The 3-Layer RAG Chunking Architecture
-To ensure smooth ingestion by AI retrieval agents (ChatGPT Thinking Mode, Perplexity, Claude) and maximize human scanning efficiency, structure every core section into three distinct layers:
+To ensure smooth ingestion by AI retrieval agents (ChatGPT Thinking Mode, Perplexity, Claude) and maximize human scanning efficiency, structure each section that answers a query into up to three layers. This is a default shape, not a mandatory template (see "Structure Is a Default, Not a Mandate" below):
 
-| Layer | Component | Target Length | Structural Function & GEO Multiplier |
+| Layer | Component | Typical Length | Structural Function & GEO Multiplier |
 | :--- | :--- | :--- | :--- |
-| **Layer 1** | **Atomic Answer Block (BLUF)** | 40–60 words | **Direct intent resolution.** Opens the section. Active SVO declarative syntax, entity-dense, zero ambiguous pronouns. Directly answers the heading query (+25% retrieval confidence). |
+| **Layer 1** | **Atomic Answer Block (BLUF)** | 20–45 words | **Direct intent resolution.** Opens the section (or leads via its table caption). Active SVO declarative syntax, entity-dense, zero ambiguous pronouns. Directly answers the heading query (+25% retrieval confidence). Aim for 20–25 words on yes/no answers, and name the entity and intent within the first 50–70 words of the document, a document-level check rather than a per-section one (directional, single-source). |
 | **Layer 2** | **Empirical Proof & Mechanism** | 150–250 words | **Hard verification.** Delivers data, comparative markdown/HTML tables, RFC/standard citations, or mathematical formulas (+37%–115% retrieval lift). |
-| **Layer 3** | **Contextual Nuance & Edge Cases** | 100–150 words | **Operational reality.** Explores limitations, prerequisites, failure modes, or alternative trade-offs. Prevents hallucination and builds trust. |
+| **Layer 3** | **Contextual Nuance & Edge Cases** | 100–150 words | **Operational reality.** Explores limitations, prerequisites, failure modes, or alternative trade-offs. Prevents hallucination and builds trust. Skip it when there is no real edge case; never pad to reach the word count. |
+
+#### Structure Is a Default, Not a Mandate
+Layers and word counts are typical, not required. Vary section order, length and layer mix to fit the content: a definitional section may need only Layers 1 and 2, and a comparison may lead with a table (the table caption or the sentence before it then carries the BLUF). The three-layer shape is optional; Point Once and the BLUF are not. Layers 2 and 3 may be dropped, merged or reordered, but a query-answering section still opens with its BLUF (a table caption may carry it) unless it deliberately uses Point-Last, and every unit states its Point exactly once (Point Placement Rules below). Do not repeat an identical layer-and-word-count skeleton in every section; that sameness is the pattern the Anti-Slop warning in Section 1 names.
 
 #### Point Placement Rules
 - **Point-First (Default / Recommended):** Position the Point at the close of the Index. Provides immediate clarity and satisfies BLUF requirements.
@@ -162,7 +169,7 @@ Every Index introduces **Key Terms**. The Discussion must weave these Key Terms 
 - **Echo-Question Resolution:** When an `<h2>` or `<h3>` asks a question, Sentence 1 must immediately answer it using declarative noun-first syntax before qualifying the answer.
 
 #### 3. The 4 Syntactic Paragraph Patterns (Level 7)
-Choose one of four deliberate patterns for every paragraph's internal flow:
+Use these four patterns as options and as a diagnostic when a paragraph reads badly. A paragraph that already flows well does not have to be relabelled or forced into one:
 
 ```
 Pattern 1: Constant Theme (Topic Anchoring)
@@ -198,12 +205,12 @@ Pattern 4: Theme Preview (Ordered Multi-Point Unpacking)
 
 ### Module 6: Empirical GEO Retrieval Multipliers
 
-To ensure the essay achieves maximum citation authority in Generative AI Search and traditional search indexes, systematically integrate these empirical multipliers:
+To ensure the essay achieves maximum citation authority in Generative AI Search and traditional search indexes, integrate these empirical multipliers wherever real support exists, and drop any lever you cannot support honestly:
 
 | Optimization Lever | Empirical Impact | Operational Requirement |
 | :--- | :--- | :--- |
 | **External Primary Standards** | **+115% Visibility** | Cite official technical standards, RFCs, statutory legislation, or primary research papers (e.g., RFC 7208, ISO/IEC 27001, NCSC, DOJ Trial Exhibits). |
-| **Hard Numerical Statistics** | **+37% to +41% Lift** | Use exact integers, percentages, and operational windows rather than vague descriptors like "faster" or "many". |
+| **Hard Numerical Statistics** | **+37% to +41% Lift** | Where the source material supports them, use exact integers, percentages, and operational windows rather than vague descriptors like "faster" or "many". |
 | **Attributed Expert Quotes** | **+28% to +41% Lift** | Embed blockquotes attributed to specific named experts, researchers, or institutional leads with professional titles. |
 | **Active SVO Declarative Prose** | **+25% Confidence** | Remove hedging terms (*"it seems"*, *"perhaps"*, *"we might argue"*). Deliver crisp, falsifiable claims. |
 | **Structured Tables & Matrices** | **43.8% of Citations** | Format comparative features, benchmarks, and multi-variable options into clean Markdown tables. |
@@ -228,7 +235,7 @@ Before approving or publishing any document produced under this SOP, it must pas
 ```
 
 ### Gate 1: The Skim Test (Index-Only Isolation)
-- **Method:** Extract and read *only* the 1–3 sentence Index of every paragraph and section.
+- **Method:** Extract and read *only* the 1–3 sentence Index of every paragraph and section (or whatever leads the unit, such as a table caption).
 - **Pass Criteria:** The extracted sentences form a coherent, standalone summary of the entire essay without informational gaps.
 
 ### Gate 2: RAG Chunk Independence Audit
@@ -244,18 +251,18 @@ Before approving or publishing any document produced under this SOP, it must pas
 - **Pass Criteria:** Zero awkward cadence breaks, zero bloated introductory clauses, and smooth Topic–Comment transitions across all sentence boundaries.
 
 ### Gate 5: Empirical Anchor & Front-Loading Audit
-- **Method:** Check top 30% of document and each section's Layer 2.
-- **Pass Criteria:** Primary point delivered above the 30% fold; at least one hard statistic, primary standard, or structured table present in every major section.
+- **Method:** Check the top 30% of the document, the author block, and each section that carries an empirical claim (its Layer 2 where present).
+- **Pass Criteria:** Primary point delivered above the 30% fold; each empirical claim is anchored by a hard statistic, primary standard, expert quote or structured table where the source material supports one (never invent a statistic, quote or standard); Step 1.4 is satisfied (a named author with linked bio and no invented credentials, or an unsigned essay labelled editorial synthesis with no expert or first-hand claims). Where the essay makes first-hand claims (testing, measurement, original research or client data), it also carries at least one original screenshot, dataset or demo (first-hand, never a stock or generated image presented as evidence) and a visible line near the byline stating what the named author actually did (for example tested, measured, interviewed or reviewed). An essay that makes no first-hand claims is exempt and must not manufacture an artefact or a labour line to pass this gate.
 
 ---
 
 ## 5. Frequently Asked Questions (FAQ)
 
 **Q: Does every paragraph need to follow one of the 4 syntactic patterns?**
-A: Yes. Random sentence flow destroys readability. Every paragraph must deliberately anchor a topic or transition from old to new information to pass the read-aloud audit.
+A: No. They are options to reach for when a paragraph's flow is unclear or fails the read-aloud audit. Random sentence flow still destroys readability, so every paragraph should deliberately anchor a topic or move from old to new information, but forcing each one into a named pattern produces the uniform rhythm that Section 1 warns against. Vary them.
 
 **Q: How do I handle sections without hard numerical statistics?**
-A: Rely on the other GEO multipliers: cite a primary standard, embed an expert blockquote, or synthesize qualitative data into a structured comparative Markdown table.
+A: Rely on the other GEO multipliers, but only real ones: cite a primary standard that exists, embed an expert blockquote you can attribute, or synthesize qualitative data into a structured comparative Markdown table. If none exists, drop the claim rather than invent support.
 
 **Q: Can I place the main point in the middle of a section?**
 A: No. The Point must appear exactly once—either front-loaded at the very beginning (Point-First) or anchored at the very end (Point-Last) to ensure clean RAG extraction.
@@ -276,6 +283,7 @@ A: The 30% Front-Loading Law dictates that AI engines extract the vast majority 
     [ ] Core Point clearly identified and stated as a falsifiable claim.
     [ ] Status Quo articulated fairly in reader's authentic vocabulary.
     [ ] Cost of Inaction explicitly stated with tangible friction/penalties.
+    [ ] Step 1.4 satisfied: named author with linked bio, each credential sourced, self-reported or omitted (no AI headshot or synthetic persona), or an unsigned essay labelled editorial synthesis with no expert or first-hand claims.
 
 [ ] 2. TITLE & HEADERS
     [ ] Title employs one of 4 curiosity triggers (Puzzle, Sequence, Violation, Knowledge Gap).
@@ -288,19 +296,20 @@ A: The 30% Front-Loading Law dictates that AI engines extract the vast majority 
     [ ] Core solution front-loaded in top 30% of introduction.
 
 [ ] 4. FRACTAL & RAG ARCHITECTURE
-    [ ] Every section follows Index ➔ Discussion ➔ Point structure.
-    [ ] Core sections employ 3-Layer RAG architecture (Atomic Answer, Empirical Proof, Nuance).
+    [ ] Sections follow Index ➔ Discussion ➔ Point (a table caption may stand in for the Index); Layers 2 and 3 may be dropped, merged or reordered where the content needs it, but a query-answering section keeps its BLUF unless it deliberately uses Point-Last.
+    [ ] Query-answering sections use the 3-Layer RAG architecture where it fits (Atomic Answer, Empirical Proof, Nuance); section shape and length vary.
     [ ] "Point Once, Not Twice" enforced across all sections.
 
 [ ] 5. SYNTACTIC INFORMATION FLOW
     [ ] Key Terms announced in Index and tracked via Thematic Strings (Entity, Mechanism, Outcome).
     [ ] Sentences adhere to SVO front-loading with minimal introductory hedging.
-    [ ] Each paragraph explicitly executes one of the 4 flow patterns (Constant, Linking, Super, Preview).
+    [ ] Paragraph flow is deliberate; the 4 flow patterns (Constant, Linking, Super, Preview) are used where a paragraph needs them, not forced on every paragraph.
 
 [ ] 6. EMPIRICAL GEO MULTIPLIERS
     [ ] Primary external standards / RFCs cited where applicable (+115% visibility).
-    [ ] Hard numerical statistics and turnaround windows included (+37% lift).
+    [ ] Hard numerical statistics and turnaround windows included where the source material supports them (+37% lift).
     [ ] Structured Markdown / HTML tables utilized for comparative data.
+    [ ] Where the essay makes first-hand claims: an original screenshot, dataset or demo, and a true visible line stating the author's own work. An essay with no first-hand claims is exempt (do not manufacture either).
 
 [ ] 7. FINAL VERIFICATION GATES
     [ ] Passed Gate 1: The Skim Test.
